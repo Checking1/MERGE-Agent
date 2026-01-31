@@ -1,7 +1,7 @@
 import os
 
 # DeepSeek API config (environment variables override defaults)
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-a2c1e72f1264417bbda9af56a3e1ccb5")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com")
 DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
 DEEPSEEK_TEMPERATURE = float(os.getenv("DEEPSEEK_TEMPERATURE", "0.8"))
