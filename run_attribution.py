@@ -83,12 +83,12 @@ def main() -> int:
     )
     parser.add_argument(
         "--farm-id",
-        default=os.getenv("AAT_FARM_ID", "bDoAAD6k2aHM567U"),
+        default=os.getenv("AAT_FARM_ID", "bDoAAJaItjXM567U"),
         help="Pig farm ID (set AAT_FARM_ID for convenience)",
     )
     parser.add_argument(
         "--reference-date",
-        default=os.getenv("AAT_REFERENCE_DATE", "2025-06-28"),
+        default=os.getenv("AAT_REFERENCE_DATE", "2025-09-01"),
         help="Reference date (YYYY-MM-DD)",
     )
     parser.add_argument("--window-days", type=int, default=60, help="Window days for attribution")
